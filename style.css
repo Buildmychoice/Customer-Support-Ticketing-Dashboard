@@ -501,7 +501,7 @@ body {
 
 .ticket-id {
   font-size: var(--body-medium);
-  font-weight: var(--font-light);
+  font-weight: var(--font-regular);
   color: var(--light-text-color);
 }
 
@@ -762,6 +762,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .top-bar {
+    padding: 0 1rem;
+  }
+
   .search-box {
     min-width: 75%;
   }
