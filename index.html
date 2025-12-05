@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Support Ticketing</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Dashboard">
+      <div class="sidebar">
+        <div class="sidebar-top">
+          <div class="logo-container">
+            <img src="./images/Suppport Logo.png" alt="Brand logo" />
+          </div>
+
+          <div class="label-and-navigations-container">
+            <p class="nav-label">MAIN</p>
+
+            <div class="navs-container">
+              <a href="#" class="nav-item">
+                <span class="material-symbols-outlined">dashboard</span>
+                Dashboard
+              </a>
+
+              <a href="#" class="nav-item active">
+                <span class="material-symbols-outlined">assignment</span>
+                Tasks
+                <div class="chip-container">
+                  <div class="chip-tag">73</div>
+                </div>
+              </a>
+
+              <a href="#" class="nav-item">
+                <span class="material-symbols-outlined">group</span>
+                Customers
+              </a>
+            </div>
+          </div>
+
+          <div class="label-and-navigations-container">
+            <p class="nav-label">ANALYTICS</p>
+
+            <div class="navs-container">
+              <a href="#" class="nav-item">
+                <span class="material-symbols-outlined">monitoring</span>
+                Reports
+              </a>
+
+              <a href="#" class="nav-item">
+                <span class="material-symbols-outlined">pie_chart</span>
+                performances
+              </a>
+
+              <a href="#" class="nav-item">
+                <span class="material-symbols-outlined">query_stats</span>
+                Insights
+              </a>
+            </div>
+          </div>
+
+          <div class="label-and-navigations-container">
+            <p class="nav-label">SETTINGS</p>
+
+            <div class="navs-container">
+              <a href="#" class="nav-item">
+                <span class="material-symbols-outlined">settings</span>
+                Settings
+              </a>
+
+              <a href="#" class="nav-item">
+                <span class="material-symbols-outlined">linked_services</span>
+                Integrations
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="divider-sidebar"></div>
+          <div class="user-profile">
+            <div class="user-image-container">
+              <img src="./images/avatar 3.avif" alt="Agent profile picture" />
+            </div>
+            <div class="name-and-role-container">
+              <div class="name">Taofeeq Adebayo</div>
+              <div class="role">Head of Support</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Content">
+        <div class="top-bar">
+          <div class="search-box">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" placeholder="Search tickets..." />
+          </div>
+
+          <div class="notification">
+            <span class="material-symbols-outlined">notifications_unread</span>
+          </div>
+        </div>
+
+        <div class="main-content">
+          <div class="heading">
+            <h1>Support Tickets</h1>
+            <p class="label">Manage and track customer support requests</p>
+          </div>
+
+          <div class="tabs-and-tickets">
+            <div class="all-tabs">
+              <button class="tab active">All Tickets</button>
+              <button class="tab">Open</button>
+              <button class="tab">In Progress</button>
+              <button class="tab">Resolved</button>
+              <button class="tab">Closed</button>
+            </div>
+
+            <div class="tickets-list-container">
+              <div class="ticket-card">
+                <div class="ticket-id-tag-and-status">
+                  <div class="ticket-id-and-priority-tag">
+                    <p class="ticket-id">TIKT-1024</p>
+                    <div class="priority-tag-high">
+                      <div class="high-circle"></div>
+                      <p>High</p>
+                    </div>
+                  </div>
+
+                  <div class="status-tag-open">
+                    <div class="icon-container">
+                      <span class="material-symbols-outlined">crop_square</span>
+                    </div>
+                    <p class="status">Open</p>
+                  </div>
+                </div>
+
+                <div class="ticket-title">
+                  Payment not reflecting after subscription renewal
+                </div>
+
+                <div class="user-and-time-container">
+                  <div class="user-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <p class="user-name">Daniel Roberts</p>
+                  </div>
+
+                  <div class="time-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">history_2</span>
+                    </div>
+                    <p class="time">1 hour ago</p>
+                  </div>
+                </div>
+
+                <p class="ticket-paragraph">
+                  I renewed my subscription this morning, but the payment hasn't
+                  reflected in my account yet. My dashboard still shows that my
+                  plan has expired. Please help update my subscription status.
+                </p>
+
+                <div class="divider-card"></div>
+
+                <div class="buttons-container">
+                  <button class="primary-button">View Details</button>
+                  <button class="secondary-button">Assign</button>
+                </div>
+              </div>
+
+              <div class="ticket-card">
+                <div class="ticket-id-tag-and-status">
+                  <div class="ticket-id-and-priority-tag">
+                    <p class="ticket-id">TIKT-1024</p>
+                    <div class="priority-tag-low">
+                      <div class="low-circle"></div>
+                      <p>Low</p>
+                    </div>
+                  </div>
+
+                  <div class="status-tag-inprogress">
+                    <div class="icon-container">
+                      <span class="material-symbols-outlined"
+                        >progress_activity</span
+                      >
+                    </div>
+                    <p class="status">In Progress</p>
+                  </div>
+                </div>
+
+                <div class="ticket-title">
+                  Unable to receive two factor authentication code
+                </div>
+
+                <div class="user-and-time-container">
+                  <div class="user-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <p class="user-name">Amina Yusuf</p>
+                  </div>
+
+                  <div class="time-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">history_2</span>
+                    </div>
+                    <p class="time">2 hours ago</p>
+                  </div>
+                </div>
+
+                <p class="ticket-paragraph">
+                  I’m trying to log in but I’m not receiving the authentication
+                  code on my phone. I’ve checked my network and email but
+                  nothing is coming in. Kindly assist so I can access my
+                  account.
+                </p>
+
+                <div class="divider-card"></div>
+
+                <div class="buttons-container">
+                  <button class="primary-button">View Details</button>
+                  <button class="secondary-button">Assign</button>
+                </div>
+              </div>
+
+              <div class="ticket-card">
+                <div class="ticket-id-tag-and-status">
+                  <div class="ticket-id-and-priority-tag">
+                    <p class="ticket-id">TIKT-1024</p>
+                    <div class="priority-tag-medium">
+                      <div class="medium-circle"></div>
+                      <p>Medium</p>
+                    </div>
+                  </div>
+
+                  <div class="status-tag-resolved">
+                    <div class="icon-container">
+                      <span class="material-symbols-outlined"
+                        >check_circle</span
+                      >
+                    </div>
+                    <p class="status">Resolved</p>
+                  </div>
+                </div>
+
+                <div class="ticket-title">
+                  Project files not loading on the dashboard
+                </div>
+
+                <div class="user-and-time-container">
+                  <div class="user-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <p class="user-name">Victor Ade</p>
+                  </div>
+
+                  <div class="time-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">history_2</span>
+                    </div>
+                    <p class="time">3 hours ago</p>
+                  </div>
+                </div>
+
+                <p class="ticket-paragraph">
+                  Some of my project files are not loading when I open them on
+                  the dashboard. The page keeps refreshing without showing the
+                  content. Please check what might be causing this.
+                </p>
+
+                <div class="divider-card"></div>
+
+                <div class="buttons-container">
+                  <button class="primary-button">View Details</button>
+                  <button class="secondary-button">Assign</button>
+                </div>
+              </div>
+
+              <div class="ticket-card">
+                <div class="ticket-id-tag-and-status">
+                  <div class="ticket-id-and-priority-tag">
+                    <p class="ticket-id">TIKT-1024</p>
+                    <div class="priority-tag-high">
+                      <div class="high-circle"></div>
+                      <p>High</p>
+                    </div>
+                  </div>
+
+                  <div class="status-tag-open">
+                    <div class="icon-container">
+                      <span class="material-symbols-outlined">crop_square</span>
+                    </div>
+                    <p class="status">Open</p>
+                  </div>
+                </div>
+
+                <div class="ticket-title">
+                  Unable to upload documents to my account
+                </div>
+
+                <div class="user-and-time-container">
+                  <div class="user-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <p class="user-name">Emmanuel Okafor</p>
+                  </div>
+
+                  <div class="time-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">history_2</span>
+                    </div>
+                    <p class="time">1 hour ago</p>
+                  </div>
+                </div>
+
+                <p class="ticket-paragraph">
+                  Each time I try to upload a document, the system shows an
+                  error message saying the file can't be processed. I need to
+                  upload some important forms urgently.
+                </p>
+
+                <div class="divider-card"></div>
+
+                <div class="buttons-container">
+                  <button class="primary-button">View Details</button>
+                  <button class="secondary-button">Assign</button>
+                </div>
+              </div>
+
+              <div class="ticket-card">
+                <div class="ticket-id-tag-and-status">
+                  <div class="ticket-id-and-priority-tag">
+                    <p class="ticket-id">TIKT-1024</p>
+                    <div class="priority-tag-low">
+                      <div class="low-circle"></div>
+                      <p>Low</p>
+                    </div>
+                  </div>
+
+                  <div class="status-tag-inprogress">
+                    <div class="icon-container">
+                      <span class="material-symbols-outlined"
+                        >progress_activity</span
+                      >
+                    </div>
+                    <p class="status">In Progress</p>
+                  </div>
+                </div>
+
+                <div class="ticket-title">
+                  Email notifications not being received
+                </div>
+
+                <div class="user-and-time-container">
+                  <div class="user-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <p class="user-name">Clara Benson</p>
+                  </div>
+
+                  <div class="time-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">history_2</span>
+                    </div>
+                    <p class="time">1 hour ago</p>
+                  </div>
+                </div>
+
+                <p class="ticket-paragraph">
+                  I stopped receiving email notifications for new updates and
+                  tasks assigned to me. I've checked my spam folder and
+                  settings, but everything looks fine. Please help restore my
+                  notifications.
+                </p>
+
+                <div class="divider-card"></div>
+
+                <div class="buttons-container">
+                  <button class="primary-button">View Details</button>
+                  <button class="secondary-button">Assign</button>
+                </div>
+              </div>
+
+              <div class="ticket-card">
+                <div class="ticket-id-tag-and-status">
+                  <div class="ticket-id-and-priority-tag">
+                    <p class="ticket-id">TIKT-1024</p>
+                    <div class="priority-tag-medium">
+                      <div class="medium-circle"></div>
+                      <p>Medium</p>
+                    </div>
+                  </div>
+
+                  <div class="status-tag-resolved">
+                    <div class="icon-container">
+                      <span class="material-symbols-outlined"
+                        >check_circle</span
+                      >
+                    </div>
+                    <p class="status">Resolved</p>
+                  </div>
+                </div>
+
+                <div class="ticket-title">Billing address not updating</div>
+
+                <div class="user-and-time-container">
+                  <div class="user-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">person</span>
+                    </div>
+                    <p class="user-name">Sophia Grant</p>
+                  </div>
+
+                  <div class="time-container">
+                    <div class="icon">
+                      <span class="material-symbols-outlined">history_2</span>
+                    </div>
+                    <p class="time">4 hours ago</p>
+                  </div>
+                </div>
+
+                <p class="ticket-paragraph">
+                  I tried updating my billing address, but after saving, the
+                  information remains unchanged. Kindly look into this so I can
+                  complete my payment setup.
+                </p>
+
+                <div class="divider-card"></div>
+
+                <div class="buttons-container">
+                  <button class="primary-button">View Details</button>
+                  <button class="secondary-button">Assign</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
