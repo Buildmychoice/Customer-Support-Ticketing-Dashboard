@@ -7,6 +7,11 @@
   font-family: "Inter", sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 :root {
   /* Brand Colors */
   --primary-color: #4b3fee;
@@ -757,7 +762,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  .search-box {
+    min-width: 75%;
+  }
+
   .all-tabs {
+    max-width: 100%;
     overflow-x: auto;
   }
 
@@ -767,5 +777,9 @@
 
   .content {
     width: 100%;
+  }
+
+  .main-content {
+    padding: 0 1rem;
   }
 }
